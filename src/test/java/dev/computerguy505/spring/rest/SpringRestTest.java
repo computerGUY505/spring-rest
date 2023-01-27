@@ -3,14 +3,22 @@
  */
 package dev.computerguy505.spring.rest;
 
+/*
+ * 
+ */
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+
 /**
  *
  * @author ade
  */
+@SpringBootTest
 public class SpringRestTest {
 
-	public static void main(String[] args) {
-		System.out.println("Hello World!");
+	@Test
+	void contextLoads() {
 	}
 
 }
